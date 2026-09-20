@@ -3,7 +3,7 @@ import json
 import sys
 
 import yaml
-from jsonschema import Draft202012Validator
+from jsonschema import Draft202012Validator, FormatChecker
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,7 +12,10 @@ SCHEMA_PATH = ROOT / "schema" / "dataset-entry.schema.json"
 
 def main():
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
-    validator = Draft202012Validator(schema)
+    validator = Draft202012Validator(
+        schema,
+        format_checker=FormatChecker(),
+    )
     failures = []
 
     for path in sorted((ROOT / "datasets").rglob("*.yml")):
