@@ -1,0 +1,27 @@
+name: First-Person Perspective Driving Video Collection
+provider: Thordata
+category: autonomous-driving
+homepage: https://datamall.thordata.com/datasets/VID-20260728-151612-899
+repository: https://github.com/Thordata/egocentric-video-sample
+data_access_url: https://huggingface.co/datasets/thordata/first-person-driving-video-v1
+license_name: Custom public sample-release terms
+license_url: https://github.com/Thordata/egocentric-video-sample/blob/main/DATA_LICENSE.md
+access_type: public-preview
+download_requires_login: false
+purchase_required: false
+permissions:
+  download: conditional
+  research: conditional
+  training: pending
+  fine_tuning: pending
+  commercial: pending
+  frame_extraction: pending
+  redistribution: pending
+scale: 1 public-preview video; 300.05 seconds; 720 x 480; 20 fps
+annotations: 6 coarse scene segments; review status needs_review
+privacy_review: Required before using or redistributing media or extracted frames.
+license_status: pending-confirmation
+last_verified: 2026-09-20
+evidence:
+  - https://github.com/Thordata/egocentric-video-sample/blob/main/metadata/media-probe.json
+  - https://github.com/Thordata/egocentric-video-sample/blob/main/docs/frame-metadata.md
