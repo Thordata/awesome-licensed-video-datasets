@@ -8,6 +8,7 @@
     "provider",
     "category",
     "homepage",
+    "data_access_url",
     "license_name",
     "license_url",
     "access_type",
@@ -23,14 +24,21 @@
     "homepage": { "type": "string", "format": "uri" },
     "repository": { "type": "string", "format": "uri" },
     "data_access_url": { "type": "string", "format": "uri" },
+    "sample_media_url": { "type": "string", "format": "uri" },
     "license_name": { "type": "string", "minLength": 1 },
     "license_url": { "type": "string", "format": "uri" },
     "access_type": {
       "type": "string",
       "enum": ["public", "public-preview", "research-only", "application", "purchase", "gated", "unknown"]
     },
-    "download_requires_login": { "type": "boolean" },
-    "purchase_required": { "type": "boolean" },
+    "download_requires_login": {
+      "type": "string",
+      "enum": ["yes", "no", "conditional", "unknown"]
+    },
+    "purchase_required": {
+      "type": "string",
+      "enum": ["yes", "no", "conditional", "unknown"]
+    },
     "permissions": {
       "type": "object",
       "required": ["download", "research", "training", "fine_tuning", "commercial", "frame_extraction", "redistribution"],
