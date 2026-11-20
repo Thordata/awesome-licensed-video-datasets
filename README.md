@@ -1,7 +1,6 @@
 # Awesome Licensed Video Datasets
 
-A curated directory of video datasets with transparent license, access,
-training, and redistribution information.
+A curated catalog of licensed video and multimodal datasets for computer vision, robotics, embodied AI, autonomous driving, and video understanding.
 
 ## What this catalog covers
 
@@ -20,6 +19,19 @@ Each entry separates the following questions:
 
 An accessible URL does not by itself grant permission to train models or
 redistribute data. Read the upstream terms before using any dataset.
+
+## Embodied AI & Robotics
+
+This catalog highlights datasets useful for building and evaluating embodied AI systems, including:
+
+- First-person and egocentric video
+- Autonomous driving and road-scene understanding
+- Robot manipulation and navigation
+- Human actions and interaction
+- Video-language and multimodal learning
+- Synthetic and simulated environments
+
+Each dataset should be reviewed for source, license, training permissions, commercial use, privacy, and redistribution terms before use.
 
 ## Entry status
 
@@ -49,6 +61,12 @@ dataset. Every dataset keeps its own license and usage conditions.
 ## Current candidates
 
 - [Thordata First-Person Perspective Driving Video Collection](datasets/pending/thordata-first-person-driving.yml)
+
+## Related Thordata Resources
+
+- [First-Person Driving Video Sample](https://github.com/Thordata/egocentric-video-sample)
+- [Video Dataset Toolkit](https://github.com/Thordata/video-dataset-toolkit)
+- [Thordata Video Data Platform](https://www.thordata.com/products/multi-platform-video-datasets?op=flora&from=github)
 
 ## Contributing
 
