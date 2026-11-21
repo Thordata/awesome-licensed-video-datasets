@@ -61,6 +61,7 @@ dataset. Every dataset keeps its own license and usage conditions.
 ## Current candidates
 
 - [Thordata First-Person Perspective Driving Video Collection](datasets/pending/thordata-first-person-driving.yml)
+- [Ego4D](datasets/pending/ego4d.yml)
 
 ## Related Thordata Resources
 
