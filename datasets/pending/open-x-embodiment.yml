@@ -1,0 +1,29 @@
+name: Open X-Embodiment Dataset
+provider: Open X-Embodiment Collaboration
+category: robotics-and-embodied-ai
+homepage: https://robotics-transformer-x.github.io/
+repository: https://github.com/google-deepmind/open_x_embodiment
+data_access_url: https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit#gid=0
+license_name: Apache-2.0 for software; CC BY 4.0 for other materials; dataset-specific terms require review
+license_url: https://creativecommons.org/licenses/by/4.0/legalcode
+access_type: unknown
+download_requires_login: unknown
+purchase_required: unknown
+permissions:
+  download: conditional
+  research: conditional
+  training: conditional
+  fine_tuning: conditional
+  commercial: pending
+  frame_extraction: conditional
+  redistribution: conditional
+scale: 1M+ real robot trajectories across 22 robot embodiments, pooled from 60 datasets and 34 research labs
+annotations: RLDS episode format, robot actions, task descriptions, and dataset-specific metadata
+privacy_review: Required; review the terms and privacy conditions of each contributing dataset before use.
+license_status: pending-confirmation
+last_verified: "2026-11-21"
+evidence:
+  - https://robotics-transformer-x.github.io/
+  - https://github.com/google-deepmind/open_x_embodiment
+  - https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit#gid=0
+  - https://creativecommons.org/licenses/by/4.0/legalcode
