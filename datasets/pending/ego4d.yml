@@ -6,7 +6,7 @@ data_access_url: https://ego4d-data.org/docs/data-access/
 license_name: Ego4D Dataset License
 license_url: https://ego4d-data.org/docs/data-access/license/
 access_type: gated
-download_requires_login: yes
+download_requires_login: "yes"
 purchase_required: unknown
 permissions:
   download: conditional
