@@ -1,0 +1,27 @@
+name: Ego4D
+provider: Ego4D Consortium
+category: egocentric-video-and-embodied-ai
+homepage: https://ego4d-data.org/
+data_access_url: https://ego4d-data.org/docs/data-access/
+license_name: Ego4D Dataset License
+license_url: https://ego4d-data.org/docs/data-access/license/
+access_type: gated
+download_requires_login: "yes"
+purchase_required: unknown
+permissions:
+  download: conditional
+  research: conditional
+  training: conditional
+  fine_tuning: conditional
+  commercial: pending
+  frame_extraction: conditional
+  redistribution: not-allowed
+scale: Large-scale egocentric video and multimodal dataset
+annotations: Episodic, activity, narration, and embodied-interaction annotations; verify current release details.
+privacy_review: Required before using or redistributing video, frames, audio, or derived personal information.
+license_status: pending-confirmation
+last_verified: "2026-11-20"
+evidence:
+  - https://ego4d-data.org/
+  - https://ego4d-data.org/docs/data-access/
+  - https://ego4d-data.org/docs/data-access/license/
